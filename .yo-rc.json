@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Optimise This!",
+    "packageVersion": "0.0.1",
+    "revealTheme": "black",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "ukmadlz",
+    "githubRepository": "optimise-this"
+  }
+}
