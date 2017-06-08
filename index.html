@@ -91,6 +91,21 @@
           	-ms-animation: pulse2 1s linear infinite;
           	animation: pulse2 1s linear infinite;
           }
+          .onfire {
+           -webkit-animation: flashingfire 1s infinite; /* Safari 4+ */
+            -moz-animation:    flashingfire 1s infinite; /* Fx 5+ */
+            -o-animation:      flashingfire 1s infinite; /* Opera 12+ */
+            animation:         flashingfire 1s infinite; /* IE 10+, Fx 29+ */
+          }
+
+          @-webkit-keyframes flashingfire {
+            0%, 49% {
+                color: #ffffff;
+            }
+            50%, 100% {
+                color: red;
+            }
+          }
         </style>
 
     </head>
@@ -327,6 +342,78 @@
                     
                         
     <section data-markdown="slides/algolia.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/indexed-aren-t-the-problem.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/still-on-fire.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/bi-ba.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/date-warehouse-data-lake.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/duplicate.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/date-warehouse-arcitecture-bad.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/date-warehouse-arcitecture.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/next.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/middle-tier.html"></section>
 
 
                     
