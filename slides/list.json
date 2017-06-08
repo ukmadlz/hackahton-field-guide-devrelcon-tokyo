@@ -55,5 +55,16 @@
         "attr": {
             "data-background": "images/hammer-time.gif"
         }
-    }
+    },
+    "reconsider-your-indexing.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/didnt-work.gif"
+        }
+    },
+    "if-that-doesn-t-work.md",
+    "remove-the-index.md",
+    "elastic-lucene-solr.md",
+    "algolia.md"
 ]
