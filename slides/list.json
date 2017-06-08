@@ -24,6 +24,12 @@
     "what-s-this-talk-about.md",
     "full-stack-optimisation.md",
     "not-tuning-jvm.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/hand-wavy.gif"
+        }
+    },
     "general-techniques-you-may-have-forgotten-about.md",
     {
         "filename": "blank.md",
@@ -33,5 +39,21 @@
     },
     "3-tier.md",
     "data-application-client.html",
-    "data-application-client-ms.html"
+    "services-everywhere.md",
+    "data-application-client-ms.html",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/saw-games.gif"
+        }
+    },
+    "bottom-tier.html",
+    "pick-the-right-tool.md",
+    "ranted-alot.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/hammer-time.gif"
+        }
+    }
 ]
