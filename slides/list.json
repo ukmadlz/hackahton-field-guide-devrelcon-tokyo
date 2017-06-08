@@ -1,1 +1,37 @@
-["index.md"]
+[
+    "index.md",
+    "author.md",
+    "what-i-do.html",
+    "not-my-best.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/theresa-may.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/vote.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/showtime.gif"
+        }
+    },
+    "what-s-this-talk-about.md",
+    "full-stack-optimisation.md",
+    "not-tuning-jvm.md",
+    "general-techniques-you-may-have-forgotten-about.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/cake.gif"
+        }
+    },
+    "3-tier.md",
+    "data-application-client.html",
+    "data-application-client-ms.html"
+]
