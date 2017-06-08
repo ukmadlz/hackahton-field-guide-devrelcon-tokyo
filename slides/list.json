@@ -66,5 +66,24 @@
     "if-that-doesn-t-work.md",
     "remove-the-index.md",
     "elastic-lucene-solr.md",
-    "algolia.md"
+    "algolia.md",
+    "indexed-aren-t-the-problem.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/still-on-fire.gif"
+        }
+    },
+    "bi-ba.md",
+    "date-warehouse-data-lake.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/duplicate.gif"
+        }
+    },
+    "date-warehouse-arcitecture-bad.html",
+    "date-warehouse-arcitecture.html",
+    "next.md",
+    "middle-tier.html"
 ]
