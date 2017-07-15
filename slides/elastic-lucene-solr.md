@@ -1,5 +1,0 @@
-# Elastic
-
-# Lucene
-
-# Solr

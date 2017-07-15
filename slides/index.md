@@ -1,2 +1,1 @@
-
-# Optimise This!
+# The Hackathon Field Guide

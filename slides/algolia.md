@@ -1,1 +1,0 @@
-![Algolia](images/algolia.png)
