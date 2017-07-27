@@ -21,12 +21,14 @@
 
         <!-- Printing and PDF exports -->
         <script>
-            var link = document.createElement( 'link' );
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = window.location.search.match( /print-pdf/gi ) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
-            document.getElementsByTagName( 'head' )[0].appendChild( link );
-        </script>
+        var link = document.createElement('link');
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match(/print-pdf/gi)
+    ? 'bower_components/reveal.js/css/print/pdf.css'
+    : 'bower_components/reveal.js/css/print/paper.css';
+document.getElementsByTagName('head')[0].appendChild(link);
+</script>
 
         <!--[if lt IE 9]>
         <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
@@ -37,6 +39,9 @@
         <style>
           .reveal h1 a {
             color: #ffffff;
+          }
+          .reveal h1 {
+            text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px #111;
           }
           .reveal pre {
             font-size: 0.75em;
@@ -141,30 +146,67 @@
         <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
         <script src="bower_components/reveal.js/js/reveal.js"></script>
         <script>
+// Full list of configuration options available at:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
 
-          // Full list of configuration options available at:
-          // https://github.com/hakimel/reveal.js#configuration
-          Reveal.initialize({
-            controls: true,
-            progress: true,
-            history: true,
-            center: true,
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-            transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-            // Optional reveal.js plugins
-            dependencies: [
-              { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-              { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-              { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-              { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-              { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
-              { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
-              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
-            ]
-          });
-
-        </script>
+    // Optional reveal.js plugins
+    dependencies: [
+        {
+            src: 'bower_components/reveal.js/lib/js/classList.js',
+            condition: function() {
+                return !document.body.classList;
+            }
+        },
+        {
+            src: 'bower_components/reveal.js/plugin/markdown/marked.js',
+            condition: function() {
+                return !!document.querySelector('[data-markdown]');
+            }
+        },
+        {
+            src: 'bower_components/reveal.js/plugin/markdown/markdown.js',
+            condition: function() {
+                return !!document.querySelector('[data-markdown]');
+            }
+        },
+        {
+            src: 'bower_components/reveal.js/plugin/highlight/highlight.js',
+            async: true,
+            condition: function() {
+                return (
+                    !!document.querySelector('[data-html]') ||
+                    !!document.querySelector('pre code') ||
+                    !!document.querySelector('[data-markdown]')
+                );
+            },
+            callback: function() {
+                hljs.initHighlightingOnLoad();
+            }
+        },
+        {
+            src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js',
+            async: true
+        },
+        {
+            src: 'bower_components/reveal.js/plugin/notes/notes.js',
+            async: true
+        },
+        {
+            src: 'js/loadhtmlslides.js',
+            condition: function() {
+                return !!document.querySelector('[data-html]');
+            }
+        }
+    ]
+});
+</script>
     </body>
 
 </html>
