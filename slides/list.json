@@ -1,5 +1,30 @@
 [
     "index.md",
     "author.md",
-    "what-i-do.html"
+    "what-i-do.html",
+    "what-this-talk-is-about.md",
+    "it-s-not-about-running-hackathons.md",
+    "want-help-setting-up-or-running-a-hackathon.md",
+    "ask-me-after-the-talk.md",
+    "it-s-about-representing-at-a-hackathon.md",
+    "how-am-i-qualified.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/skills.gif"
+        }
+    },
+    "how-am-i-qualified.md",
+    "i-attended-a-lot.md",
+    {
+        "filename": "won-a-few.md",
+        "attr": {
+            "data-background": "images/battlehack.jpg"
+        }
+    },
+    "i-may-have-run-a-few.md",
+    "ackference.md",
+    "heartbeat.html",
+    "i-was-an-evangelist-for-ibm.md",
+    "done-it-all.md"
 ]

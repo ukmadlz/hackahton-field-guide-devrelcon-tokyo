@@ -2,6 +2,6 @@
 
 ## Mike Elsmore
 
-#### Internet Muppet
+#### I do stuff with and on the Internet
 
 #### mike@builtbyme.tech
