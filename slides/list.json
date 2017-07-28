@@ -48,6 +48,7 @@
         }
     },
     {
+        "filename": "hands-up.html",
         "attr": {
             "data-background": "images/blah-blah.gif"
         }
@@ -70,5 +71,41 @@
     "make-sure-you-have-marketing-material.md",
     "rtm-read-the-manual.md",
     "check-support-channels-for-the-event.md",
-    "setup-tracking.md"
+    "setup-tracking.md",
+    "not-turn-up.html",
+    {
+        "attr": {
+            "data-background": "images/seatbelts.gif"
+        }
+    },
+    "step-two.md",
+    "at-the-start.md",
+    "be-punctual.md",
+    "be-obvious.md",
+    "easily-identifiable.md",
+    "remember-to-mingle.md",
+    "don-t-forget-your-presentation.md",
+    "have-an-appropriate-demo-prepared.md",
+    "practice-the-demo.md",
+    "prepare-for.md",
+    {
+        "filename": "demo-fail.md",
+        "attr": {
+            "data-background": "images/demo-fail.gif"
+        }
+    },
+    "don-t-blame-the-demo-gods.html",
+    "just-prepare-as-if-the-internet-died.html",
+    {
+        "filename": "even-gifs.md",
+        "attr": {
+            "data-background": "images/coding.gif"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/cardio.gif"
+        }
+    },
+    "step-three.md"
 ]
