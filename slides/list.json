@@ -133,5 +133,19 @@
         "attr": {
             "data-background": "images/double-tap.gif"
         }
-    }
+    },
+    "step-four.md",
+    "be-support-of-everyones-work.md",
+    "judging.md",
+    "you-don-t-have-to-pick-the-most-complete-product.md",
+    "prizes.md",
+    "talk-to-hackers-that-used-your-stuff.md",
+    "make-collatoral.md",
+    {
+        "attr": {
+            "data-background": "images/be-a-hero.gif"
+        }
+    },
+    "get-involved-in-hackathons.md",
+    "end.html"
 ]
