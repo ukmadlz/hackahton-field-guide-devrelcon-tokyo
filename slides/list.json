@@ -31,7 +31,6 @@
             "data-background": "images/mike-at-ibm.jpg"
         }
     },
-
     "done-it-all.md",
     {
         "attr": {
@@ -40,7 +39,17 @@
     },
     {
         "attr": {
+            "data-background": "images/common-sense.gif"
+        }
+    },
+    {
+        "attr": {
             "data-background": "images/the-dude-opinion.gif"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/blah-blah.gif"
         }
     },
     {
@@ -52,5 +61,14 @@
         "attr": {
             "data-background": "images/so-it-begins.gif"
         }
-    }
+    },
+    "step-one.md",
+    "may-not-have-a-choice-in-the-event.md",
+    "check-it-has-a-code-of-conduct.md",
+    "hack-code-of-conduct.md",
+    "research-previous-editions.md",
+    "make-sure-you-have-marketing-material.md",
+    "rtm-read-the-manual.md",
+    "check-support-channels-for-the-event.md",
+    "setup-tracking.md"
 ]
