@@ -25,6 +25,32 @@
     "i-may-have-run-a-few.md",
     "ackference.md",
     "heartbeat.html",
-    "i-was-an-evangelist-for-ibm.md",
-    "done-it-all.md"
+    {
+        "filename": "i-was-an-evangelist-for-ibm.md",
+        "attr": {
+            "data-background": "images/mike-at-ibm.jpg"
+        }
+    },
+
+    "done-it-all.md",
+    {
+        "attr": {
+            "data-background": "images/do-or-do-not.gif"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/the-dude-opinion.gif"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/limber-up.gif"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "images/so-it-begins.gif"
+        }
+    }
 ]
