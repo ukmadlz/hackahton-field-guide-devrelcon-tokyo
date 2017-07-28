@@ -107,5 +107,31 @@
             "data-background": "images/cardio.gif"
         }
     },
-    "step-three.md"
+    "step-three.md",
+    "can-t-make-assumptions-on-attendee-skills.md",
+    "a-lot-of-time.md",
+    "how-many-staff-to-support.md",
+    "at-least-one.md",
+    {
+        "filename": "not-an-army.md",
+        "attr": {
+            "data-background": "images/clone-army.gif"
+        }
+    },
+    "good-citizen.md",
+    "be-approachable.md",
+    "talk-about-problems-hackers-are-hacking.md",
+    "help-them-to-google-search.md",
+    "don-t-ignore-or-be-negative-about-competitors.html",
+    "don-t-leave-early.html",
+    "don-t-look-like-you-re-working.html",
+    "don-t-take-work-calls.html",
+    "now-you-re-being-engaging.md",
+    "it-s-optional-to-stay-all-24-hours.md",
+    "be-availalble-before-hacking-ends.md",
+    {
+        "attr": {
+            "data-background": "images/double-tap.gif"
+        }
+    }
 ]
